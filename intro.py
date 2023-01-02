@@ -150,6 +150,7 @@ for line in fh:                             #Loops through the file name ismail.
 # print("\n", lst)      
 # lst.sort()
 # print("\n",lst, "\n")
+# write output to a txt file
 print(count)
 with open('ans.txt','w') as f:
     f.write(str(count))
